@@ -7,7 +7,7 @@ install:
   - pip install nbfancy
 
 script:
-  - nbfancy render
+  - nbfancy render worksheet
   - nbfancy html
 
 deploy:
