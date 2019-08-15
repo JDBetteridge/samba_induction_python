@@ -9,7 +9,7 @@ install:
 
 script:
   - nbfancy rerun
-  - nbfancy rerun worksheet
+  - nbfancy rerun --output_dir=worksheet worksheet
   - nbfancy render
   - nbfancy render --output_dir=fancyws worksheet
   - nbfancy html
