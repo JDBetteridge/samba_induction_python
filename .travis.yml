@@ -8,7 +8,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - nbfancy rerun
+  - nbfancy rerun --allow_errors
   - nbfancy rerun --output_dir=worksheet worksheet
   - nbfancy render
   - nbfancy render --output_dir=fancyws worksheet
